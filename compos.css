@@ -81,14 +81,14 @@ h2 {
 	background: url("graphics.png") -0px -2215px;
 }
 
-.Brotherhood {
+.Confrérie {
 	background: url("http://media.pandora.fallengalaxy.com/images/nebulas/dark/111.jpg");
 }
-.Brotherhood .faction {
+.Confrérie .faction {
 	color: #D00;
 	text-shadow: 0 0 5px #444;
 }
-.Brotherhood .factionimage {
+.Confrérie .factionimage {
 	background: url("graphics.png") -60px -2215px;
 }
 
@@ -126,7 +126,7 @@ h2 {
 	margin-right: 12px;
 }
 
-.Brotherhood *, .OfficeDiplomatiqueGalactique *, .RéseauAutonome * {
+.Confrérie *, .OfficeDiplomatiqueGalactique *, .RéseauAutonome * {
 	background-image: none;
 }
 
@@ -318,7 +318,7 @@ h2 {
 	background-position: -100px -50px;
 }
 
-.Fortress {
+.Fortresses {
 	background-position: -150px -50px;
 }
 
@@ -354,7 +354,7 @@ h2 {
 	background-position: -800px -50px;
 }
 
-.Valkiries {
+.Valkirys {
 	background-position: -1050px -50px;
 }
 
@@ -370,7 +370,7 @@ h2 {
 	background-position: -1200px -50px;
 }
 
-.Sentinels {
+.Sentinelles {
 	background-position: -1250px -50px;
 }
 
@@ -382,11 +382,11 @@ h2 {
 	background-position: -2050px -50px;
 }
 
-.Furies {
+.Furys {
 	background-position: -2100px -50px;
 }
 
-.Liberties {
+.Libertys {
 	background-position: -2150px -50px;
 }
 
@@ -426,7 +426,7 @@ h2 {
 	background-position: -3200px -50px;
 }
 
-.Eclipses {
+.Éclipses {
 	background-position: -3250px -50px;
 }
 
@@ -434,7 +434,7 @@ h2 {
 	background-position: -4050px -50px;
 }
 
-.Trinities {
+.Trinitys {
 	background-position: -4100px -50px;
 }
 

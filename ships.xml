@@ -6,7 +6,7 @@
 		<ship>
 			<name>Recons</name>
 
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 
 			<weak>Ombres</weak>
 			<weak>Gardiens</weak>
@@ -18,7 +18,7 @@
 		</ship>
 		<ship faction="Corporations">
 			<name>Recon Falcons</name>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 			<weak>Ombres</weak>
 			<weak>Gardiens</weak>
 			<weak>Tigres</weak>
@@ -31,22 +31,22 @@
 		</ship>
 		<ship>
 			<name>Raiders</name>
-			<weak>Sentinels</weak>
+			<weak>Sentinelles</weak>
 			<weak>Templars</weak>
-			<weak>Eclipses</weak>
+			<weak>Éclipses</weak>
 			<weak>Hurricanes</weak>
 			<weak>Predators</weak>
 			<weak>Titans</weak>
-			<weak>Trinities</weak>
+			<weak>Trinitys</weak>
 		</ship>
 		<ship>
 			<name>Gardiens</name>
 			<strong>Recons</strong>
 			<strong>Recon Falcons</strong>
 			<strong>Hellcats</strong>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 			<strong>Templars</strong>
-			<strong>Trinities</strong>
+			<strong>Trinitys</strong>
 		</ship>
 		<ship faction="Corporations">
 			<name>Protecteurs</name>
@@ -56,17 +56,17 @@
 		</ship>
 		<ship>
 			<name>Zeros</name>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 		</ship>
 		<ship>
-			<name>Fortress</name>
+			<name>Fortresses</name>
 		</ship>
 		<ship faction="Office Diplomatique Galactique">
 			<name>Tigres</name>
 			<strong>Recons</strong>
 			<strong>Recon Falcons</strong>
 		</ship>
-		<ship faction="Brotherhood">
+		<ship faction="Confrérie">
 			<name>Ombres</name>
 			<strong>Recons</strong>
 			<strong>Recon Falcons</strong>
@@ -75,7 +75,7 @@
 	<class>
 		<name>Corvettes</name>
 		<ship>
-			<name>Sentinels</name>
+			<name>Sentinelles</name>
 
 			<strong>Raiders</strong>
 			<strong>Blades</strong>
@@ -85,9 +85,9 @@
 
 			<weak>Zeros</weak>
 			<weak>Corsairs</weak>
-			<weak>Valkiries</weak>
+			<weak>Valkirys</weak>
 			<weak>Raptors</weak>
-			<weak>Furies</weak>
+			<weak>Furys</weak>
 			<weak>Styxes</weak>
 			<weak>Oblivions</weak>
 		</ship>
@@ -101,9 +101,9 @@
 			<strong>Scorpions</strong>
 
 			<weak>Corsairs</weak>
-			<weak>Valkiries</weak>
+			<weak>Valkirys</weak>
 			<weak>Raptors</weak>
-			<weak>Furies</weak>
+			<weak>Furys</weak>
 			<weak>Styxes</weak>
 			<weak>Oblivions</weak>
 		</ship>
@@ -119,18 +119,18 @@
 			<strong>Templars</strong>
 			<strong>Oblivions</strong>
 			<strong>Predators</strong>
-			<strong>Eclipses</strong>
+			<strong>Éclipses</strong>
 			<strong>Hurricanes</strong>
 			<bestwith>Hellcats</bestwith>
 		</ship>
 		<ship>
-			<name>Valkiries</name>
-			<strong>Sentinels</strong>
+			<name>Valkirys</name>
+			<strong>Sentinelles</strong>
 			<strong>Banshees</strong>
 		</ship>
 		<ship>
 			<name>Raptors</name>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 			<strong>Banshees</strong>
 		</ship>
 	</class>
@@ -140,19 +140,19 @@
 			<name>Paladins</name>
 		</ship>
 		<ship>
-			<name>Furies</name>
+			<name>Furys</name>
 			<strong>Banshees</strong>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 			<weak>Styxes</weak>
 			<bestwith>Hellcats</bestwith>
 			<bestwith>Templars</bestwith>
 		</ship>
 		<ship>
-			<name>Liberties</name>
+			<name>Libertys</name>
 		</ship>
 		<ship>
 			<name>Styxes</name>
-			<strong>Furies</strong>
+			<strong>Furys</strong>
 			<weak>Banshees</weak>
 		</ship>
 		<ship>
@@ -160,11 +160,11 @@
 		</ship>
 		<ship>
 			<name>Scorpions</name>
-			<weak>Sentinels</weak>
+			<weak>Sentinelles</weak>
 		</ship>
 		<ship>
 			<name>Hadès</name>
-			<weak>Sentinels</weak>
+			<weak>Sentinelles</weak>
 		</ship>
 		<ship faction="Réseau Autonome">
 			<name>Phoenixes</name>
@@ -180,11 +180,11 @@
 		</ship>
 		<ship>
 			<name>Oblivions</name>
-			<strong>Sentinels</strong>
+			<strong>Sentinelles</strong>
 			<weak>Spectres</weak>
 		</ship>
 		<ship>
-			<name>Eclipses</name>
+			<name>Éclipses</name>
 			<strong>Raiders</strong>
 			<weak>Spectres</weak>
 		</ship>
@@ -208,7 +208,7 @@
 			<weak>Hadès</weak>
 		</ship>
 		<ship>
-			<name>Trinities</name>
+			<name>Trinitys</name>
 			<strong>Raiders</strong>
 			<weak>Gardiens</weak>
 			<weak>Hadès</weak>

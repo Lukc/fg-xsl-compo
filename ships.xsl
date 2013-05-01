@@ -7,7 +7,7 @@
 
 <html>
 <head>
-	<title>Fallen Galaxy Ships Counters</title>
+	<title>Contres des vaisseaux de Fallen Galaxy</title>
 	<link rel="stylesheet" href="compos.css"/>
 	<link rel="stylesheet" href="ships.css"/>
 </head>
@@ -39,7 +39,7 @@
 				<div class="counters">
 					<div class="strongAndWeak">
 					<div class="strong">
-						<h4>Strong against</h4>
+						<h4>Fort contre</h4>
 
 						<!-- FIXME: Template -->
 						<div class="ships">
@@ -53,14 +53,14 @@
 								</xsl:when>
 								<xsl:otherwise>
 									<div>
-										none in particular
+										aucun en particulier
 									</div>
 								</xsl:otherwise>
 							</xsl:choose>
 						</div>
 					</div>
 					<div class="weak">
-						<h4>Weak against</h4>
+						<h4>Faible contre</h4>
 
 						<div class="ships">
 							<xsl:choose>
@@ -73,7 +73,7 @@
 								</xsl:when>
 								<xsl:otherwise>
 									<div>
-										none in particular
+										Aucun en particulier
 									</div>
 								</xsl:otherwise>
 							</xsl:choose>
@@ -84,7 +84,7 @@
 					<xsl:choose>
 						<xsl:when test="bestwith">
 							<div class="bestwith">
-								<h4>Best with</h4>
+								<h4>Meilleur avec</h4>
 
 								<div class="ships">
 									<xsl:for-each select="bestwith">

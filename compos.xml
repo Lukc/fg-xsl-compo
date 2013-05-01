@@ -14,7 +14,7 @@
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Banshees">
@@ -25,7 +25,7 @@
 				</front>
 				<back>
 					<ship amount="5">Banshees</ship>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
 		</compo>
@@ -33,7 +33,7 @@
 			<name>Isha-one</name>
 			<ships title="Hadès">
 				<front>
-					<ship amount="5">Trinities</ship>
+					<ship amount="5">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -44,7 +44,7 @@
 			</ships>
 			<ships type="variation" title="Spectres">
 				<front>
-					<ship amount="5">Trinities</ship>
+					<ship amount="5">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -53,15 +53,15 @@
 					<ship amount="2">Spectres</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Furies">
+			<ships type="variation" title="Furys">
 				<front>
-					<ship amount="5">Trinities</ship>
+					<ship amount="5">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furies</ship>
+					<ship amount="2">Furys</ship>
 				</back>
 			</ships>
 			<note>Contribution d’Ishamael pour 40k et 70k. :)</note>
@@ -76,10 +76,10 @@
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furies</ship>
+					<ship amount="2">Furys</ship>
 				</back>
 			</ships>
-			<strength>Sentinels</strength>
+			<strength>Sentinelles</strength>
 		</compo>
 		<compo min-tech="8" min-pow="1k" type="aggressive">
 			<name>When I Don't Know</name>
@@ -90,7 +90,7 @@
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="4">Sentinels</ship>
+					<ship amount="4">Sentinelles</ship>
 					<ship amount="1">Spectres</ship>
 				</back>
 			</ships>
@@ -117,12 +117,12 @@
 			<ships>
 				<front>
 					<ship amount="2">Templars</ship>
-					<ship amount="2">Eclipses</ship>
+					<ship amount="2">Éclipses</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
-					<ship amount="2">Valkiries</ship>
+					<ship amount="5">Sentinelles</ship>
+					<ship amount="2">Valkirys</ship>
 				</back>
 			</ships>
 			<weakness>Full Spectre</weakness>
@@ -136,8 +136,8 @@
 					<ship amount="3">Banshees</ship>
 				</front>
 				<back>
-					<ship amount="2">Valkiries</ship>
-					<ship amount="4">Sentinels</ship>
+					<ship amount="2">Valkirys</ship>
+					<ship amount="4">Sentinelles</ship>
 				</back>
 			</ships>
 		</compo>
@@ -146,15 +146,15 @@
 			<ships>
 				<front>
 					<ship amount="3">Templars</ship>
-					<ship amount="3">Eclipses</ship>
+					<ship amount="3">Éclipses</ship>
 					<ship amount="2">Spectres</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="-1">Orions</ship>
 				</back>
 			</ships>
-			<note>En 10k, utilisez 3 Templars et 2 Eclipses.</note>
+			<note>En 10k, utilisez 3 Templars et 2 Éclipses.</note>
 		</compo>
 		<compo type="cargo" min-pow="5k">
 			<name>Mineuse low-tech</name>
@@ -165,7 +165,7 @@
 					<ship amount="3">Templars</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="-1">Orions</ship>
 				</back>
 			</ships>
@@ -176,7 +176,7 @@
 					<ship amount="3">Templars</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="-1">Orions</ship>
 				</back>
 			</ships>
@@ -187,7 +187,7 @@
 					<ship amount="3">Templars</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="-1">Orions</ship>
 				</back>
 			</ships>
@@ -204,18 +204,18 @@
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="6">Eclipses</ship>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="6">Éclipses</ship>
+					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Ombres (Brotherhood)">
+			<ships type="variation" title="Ombres (Confrérie)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="6">Eclipses</ship>
+					<ship amount="6">Éclipses</ship>
 					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
@@ -226,17 +226,17 @@
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="6">Eclipses</ship>
+					<ship amount="6">Éclipses</ship>
 					<ship amount="5">Tigres</ship>
 				</back>
 			</ships>
 			<strength>Full destroyers</strength>
-			<weakness>Sentinels</weakness>
+			<weakness>Sentinelles</weakness>
 			<note>Mettre plus de blades et très peu de gardiens en 20k+.</note>
 		</compo>
 		<compo min-tech="4" min-pow="1k" type="aggressive" faction="Hybrid">
 			<name>Full Spectre (light)</name>
-			<ships title="Ombres (Brotherhood)">
+			<ships title="Ombres (Confrérie)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
@@ -244,7 +244,7 @@
 				</front>
 				<back>
 					<ship amount="5">Ombres</ship>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Tigres (ODG)">
@@ -255,11 +255,11 @@
 				</front>
 				<back>
 					<ship amount="5">Tigres</ship>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
 			<strength>Full destroyers</strength>
-			<weakness>Sentinels</weakness>
+			<weakness>Sentinelles</weakness>
 			<note>Mettre plus de blades et très peu de gardiens en 20k+.</note>
 		</compo>
 		<compo min-pow="5k" type="aggressive">
@@ -285,11 +285,11 @@
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="2">Protecteurs</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Ombres (Brotherhood)">
+			<ships type="variation" title="Ombres (Confrérie)">
 				<front>
 					<ship amount="3">Hurricanes</ship>
 					<ship amount="3">Blades</ship>
@@ -329,7 +329,7 @@
 			</ships>
 			<ships type="variation" title="Low-tech">
 				<front>
-					<ship amount="4">Sentinels</ship>
+					<ship amount="4">Sentinelles</ship>
 					<ship amount="2">Corsairs</ship>
 					<ship amount="2">Zeros</ship>
 				</front>
@@ -350,7 +350,7 @@
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="1">Styxes</ship>
 				</back>
 			</ships>
@@ -368,7 +368,7 @@
 				</front>
 				<back>
 					<ship amount="4">Hellcats</ship>
-					<ship amount="1">Furies</ship>
+					<ship amount="1">Furys</ship>
 				</back>
 			</ships>
 			<weakness>Full Styxes</weakness>
@@ -449,7 +449,7 @@
 			<name>Soban-one</name>
 			<ships>
 				<front>
-					<ship amount="3">Liberties</ship>
+					<ship amount="3">Libertys</ship>
 					<ship amount="3">Predators</ship>
 					<ship amount="3">Spectres</ship>
 				</front>
@@ -468,22 +468,22 @@
 					<ship amount="3">Banshees</ship>
 				</front>
 				<back>
-					<ship amount="5">Sentinels</ship>
+					<ship amount="5">Sentinelles</ship>
 					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
 		</compo>
-		<compo min-tech="8" faction="Brotherhood" type="aggressive">
+		<compo min-tech="8" faction="Confrérie" type="aggressive">
 			<name>Anti-minatoi PalaSpectres</name>
 			<ships>
 				<front>
-					<ship amount="2">Furies</ship>
+					<ship amount="2">Furys</ship>
 					<ship amount="2">Predators</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="3">Ombres</ship>
-					<ship amount="3">Sentinels</ship>
+					<ship amount="3">Sentinelles</ship>
 				</back>
 			</ships>
 			<strength>Banshees</strength>
@@ -514,7 +514,7 @@
 					<ship amount="2">Spectres</ship>
 				</front>
 				<back>
-					<ship amount="4">Sentinels</ship>
+					<ship amount="4">Sentinelles</ship>
 					<ship amount="4">Oblivions</ship>
 				</back>
 			</ships>
@@ -522,7 +522,7 @@
 	</category>
 	<category>
 		<name>Weak compositions</name>
-		<compo type="aggressive" faction="Brotherhood">
+		<compo type="aggressive" faction="Confrérie">
 			<name>Low level</name>
 			<ships>
 				<front>
@@ -542,11 +542,11 @@
 				<front>
 					<ship amount="2">Spectres</ship>
 					<ship amount="5">Gardiens</ship>
-					<ship amount="2">Liberties</ship>
+					<ship amount="2">Libertys</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furies</ship>
+					<ship amount="2">Furys</ship>
 				</back>
 			</ships>
 		</compo>
@@ -574,7 +574,7 @@
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furies</ship>
+					<ship amount="2">Furys</ship>
 				</back>
 			</ships>
 		</compo>
@@ -588,9 +588,9 @@
 					<ship amount="6">Titans</ship>
 				</front>
 			</ships>
-			<ships type="variation" title="Trinities">
+			<ships type="variation" title="Trinitys">
 				<front>
-					<ship amount="6">Trinities</ship>
+					<ship amount="6">Trinitys</ship>
 				</front>
 			</ships>
 			<weakness>Full Hadès</weakness>
