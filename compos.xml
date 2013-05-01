@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet href="compos.xsl" type="text/xsl" title="Default style"?>
-<!DOCTYPE fleets PUBLIC "-//FGDOC//DTD FleetCompos XML//EN" "./compos.dtd">
+<!DOCTYPE fleets PUBLIC "-//FODGC//DTD FleetCompos XML//EN" "./compos.dtd">
 <fleets>
 	<category>
 		<name>Generic</name>
@@ -10,7 +10,7 @@
 				<front>
 					<ship amount="2">Corsairs</ship>
 					<ship amount="2">Zeros</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -21,7 +21,7 @@
 				<front>
 					<ship amount="2">Corsairs</ship>
 					<ship amount="2">Zeros</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Banshees</ship>
@@ -31,22 +31,22 @@
 		</compo>
 		<compo min-pow="40k" type="generic">
 			<name>Isha-one</name>
-			<ships title="Hades">
+			<ships title="Hadès">
 				<front>
 					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Hades</ship>
+					<ship amount="2">Hadès</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Spectres">
 				<front>
 					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -57,7 +57,7 @@
 				<front>
 					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -72,7 +72,7 @@
 				<front>
 					<ship amount="3">Blades</ship>
 					<ship amount="4">Banshees</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -87,7 +87,7 @@
 				<front>
 					<ship amount="2">Predators</ship>
 					<ship amount="2">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="4">Sentinels</ship>
@@ -101,7 +101,7 @@
 				<front>
 					<ship amount="5">Hellcats</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="2">Spectres</ship>
@@ -118,7 +118,7 @@
 				<front>
 					<ship amount="2">Templars</ship>
 					<ship amount="2">Eclipses</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Sentinels</ship>
@@ -201,29 +201,29 @@
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="6">Eclipses</ship>
 					<ship amount="5">Sentinels</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Shadows (Brotherhood)">
+			<ships type="variation" title="Ombres (Brotherhood)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="6">Eclipses</ship>
-					<ship amount="5">Shadows</ship>
+					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Tigres (GDO)">
+			<ships type="variation" title="Tigres (ODG)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="6">Eclipses</ship>
@@ -236,22 +236,22 @@
 		</compo>
 		<compo min-tech="4" min-pow="1k" type="aggressive" faction="Hybrid">
 			<name>Full Spectre (light)</name>
-			<ships title="Shadows (Brotherhood)">
+			<ships title="Ombres (Brotherhood)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="5">Shadows</ship>
+					<ship amount="5">Ombres</ship>
 					<ship amount="5">Sentinels</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Tigres (GDO)">
+			<ships type="variation" title="Tigres (ODG)">
 				<front>
 					<ship amount="1">Spectres</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Tigres</ship>
@@ -268,7 +268,7 @@
 				<front>
 					<ship amount="3">Blades</ship>
 					<ship amount="4">Banshees</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -282,22 +282,22 @@
 				<front>
 					<ship amount="3">Hurricanes</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Sentinels</ship>
-					<ship amount="2">Protectors</ship>
+					<ship amount="2">Protecteurs</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Shadows (Brotherhood)">
+			<ships type="variation" title="Ombres (Brotherhood)">
 				<front>
 					<ship amount="3">Hurricanes</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="5">Shadows</ship>
-					<ship amount="2">Protectors</ship>
+					<ship amount="5">Ombres</ship>
+					<ship amount="2">Protecteurs</ship>
 				</back>
 			</ships>
 			<note>Chargez les hurricanes en défense tout les 2 tours, et inversez les bonus/malus d’attaque et de défense des hurricanes avec les protecteurs en fin de combat pour bénéficier d’une attaque importante en ayant pris des dégâts réduits pendant le reste du combat.</note>
@@ -342,16 +342,16 @@
 			<note>Recons can be replaced by Recon Falcons.</note>
 		</compo>
 		<compo min-tech="6" min-pow="5k" type="aggressive">
-			<name>Full Styx</name>
+			<name>Full Styxes</name>
 			<ships>
 				<front>
 					<ship amount="4">Templars</ship>
 					<ship amount="5">Spectres</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Sentinels</ship>
-					<ship amount="1">Styx</ship>
+					<ship amount="1">Styxes</ship>
 				</back>
 			</ships>
 			<strength>Full Fury</strength>
@@ -364,48 +364,48 @@
 				<front>
 					<ship amount="4">Templars</ship>
 					<ship amount="5">Spectres</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="4">Hellcats</ship>
 					<ship amount="1">Furies</ship>
 				</back>
 			</ships>
-			<weakness>Full Styx</weakness>
+			<weakness>Full Styxes</weakness>
 		</compo>
 		<compo min-pow="5k" type="aggressive">
-			<name>Full Hades</name>
+			<name>Full Hadès</name>
 			<ships>
 				<front>
 					<ship amount="4">Banshees</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Hades</ship>
+					<ship amount="2">Hadès</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="More resilient">
 				<front>
 					<ship amount="4">Banshees</ship>
 					<ship amount="3">Spectres</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Hades</ship>
+					<ship amount="2">Hadès</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Even more resilient">
 				<front>
 					<ship amount="4">Banshees</ship>
 					<ship amount="3">Paladins</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Hades</ship>
+					<ship amount="2">Hadès</ship>
 				</back>
 			</ships>
 			<strength>Cruisers</strength>
@@ -419,7 +419,7 @@
 					<ship amount="6">Hellcats</ship>
 					<ship amount="1">Recons</ship>
 					<ship amount="6">Corsairs</ship>
-					<ship amount="6">Styx</ship>
+					<ship amount="6">Styxes</ship>
 				</front>
 			</ships>
 			<strength>Survivor</strength>
@@ -431,7 +431,7 @@
 				<front>
 					<ship amount="6">Templars</ship>
 					<ship amount="6">Predators</ship>
-					<ship amount="6">Guardians</ship>
+					<ship amount="6">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="6">Hellcats</ship>
@@ -454,7 +454,7 @@
 					<ship amount="3">Spectres</ship>
 				</front>
 				<back>
-					<ship amount="5">Shadows</ship>
+					<ship amount="5">Ombres</ship>
 					<ship amount="5">Banshees</ship>
 				</back>
 			</ships>
@@ -463,13 +463,13 @@
 			<name>Soban-two</name>
 			<ships>
 				<front>
-					<ship amount="3">Styx</ship>
+					<ship amount="3">Styxes</ship>
 					<ship amount="3">Spectres</ship>
 					<ship amount="3">Banshees</ship>
 				</front>
 				<back>
 					<ship amount="5">Sentinels</ship>
-					<ship amount="5">Shadows</ship>
+					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
 		</compo>
@@ -479,18 +479,18 @@
 				<front>
 					<ship amount="2">Furies</ship>
 					<ship amount="2">Predators</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
-					<ship amount="3">Shadows</ship>
+					<ship amount="3">Ombres</ship>
 					<ship amount="3">Sentinels</ship>
 				</back>
 			</ships>
 			<strength>Banshees</strength>
-			<strength>Tigers</strength>
-			<weakness>Styx</weakness>
+			<strength>Tigres</strength>
+			<weakness>Styxes</weakness>
 		</compo>
-		<compo min-tech="7" faction="GalacticDiplomaticOffice" type="aggressive">
+		<compo min-tech="7" faction="OfficeDiplomatiqueGalactique" type="aggressive">
 			<name>minatoi PalaSpectres</name>
 			<ships>
 				<front>
@@ -500,12 +500,12 @@
 				</front>
 				<back>
 					<ship amount="4">Seraphins</ship>
-					<ship amount="4">Tigers</ship>
+					<ship amount="4">Tigres</ship>
 				</back>
 			</ships>
 			<weakness>Anti-minatoi PalaSpectres</weakness>
 		</compo>
-		<compo faction="AutonomousNetwork">
+		<compo faction="RéseauAutonome">
 			<name>Natorius-one</name>
 			<ships>
 				<front>
@@ -527,11 +527,11 @@
 			<ships>
 				<front>
 					<ship amount="1">Corsairs</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="5">Shadows</ship>
+					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
 			<strength>Low level AI</strength>
@@ -541,7 +541,7 @@
 			<ships>
 				<front>
 					<ship amount="2">Spectres</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 					<ship amount="2">Liberties</ship>
 				</front>
 				<back>
@@ -556,7 +556,7 @@
 				<front>
 					<ship amount="4">Templars</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -570,7 +570,7 @@
 				<front>
 					<ship amount="4">Templars</ship>
 					<ship amount="3">Blades</ship>
-					<ship amount="5">Guardians</ship>
+					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
@@ -593,7 +593,7 @@
 					<ship amount="6">Trinities</ship>
 				</front>
 			</ships>
-			<weakness>Full Hades</weakness>
+			<weakness>Full Hadès</weakness>
 			<weakness>Full Spectre</weakness>
 			<weakness>Full Spectre (light)</weakness>
 			<note>Les Full Spectres ne sont utilisables contre un croiseur qu’en ayant le premier tir.</note>

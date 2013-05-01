@@ -7,7 +7,7 @@
 
 <html>
 <head>
-	<title>Fallen Galaxy Fleet Compositions</title>
+	<title>Compositions de flottes de Fallen Galaxy</title>
 	<link rel="stylesheet" href="compos.css" />
 </head>
 <body>
@@ -82,7 +82,7 @@
 									<p>
 										<xsl:choose>
 											<xsl:when test="ships[not(@type)]/@title"><xsl:value-of select="ships/@title"/></xsl:when>
-											<xsl:otherwise>Default</xsl:otherwise>
+											<xsl:otherwise>Défaut</xsl:otherwise>
 										</xsl:choose>
 									</p>
 									<div class="ships">
@@ -114,10 +114,10 @@
 
 				<xsl:if test="strength or weakness">
 					<div class="counters">
-						<h3>Counters</h3>
+						<h3>Contres</h3>
 						<xsl:if test="strength">
 							<div class="strongCounter">
-								<h4>Strong against</h4>
+								<h4>Fort contre</h4>
 								<ul>
 									<xsl:for-each select="strength">
 										<xsl:call-template name="weakandstrong" />
@@ -127,7 +127,7 @@
 						</xsl:if>
 						<xsl:if test="weakness">
 							<div class="weakCounter">
-								<h4>Weak against</h4>
+								<h4>Faible contre</h4>
 								<ul>
 									<xsl:for-each select="weakness">
 										<xsl:call-template name="weakandstrong" />
@@ -179,14 +179,14 @@
 				<div class="amount">
 					<span class="amount{@amount}">
 						<xsl:choose>
-							<xsl:when test="@amount = '0'">only</xsl:when>
-							<xsl:when test="@amount = '1'">lots of</xsl:when>
-							<xsl:when test="@amount = '2'">many</xsl:when>
-							<xsl:when test="@amount = '3'">some</xsl:when>
-							<xsl:when test="@amount = '4'">few</xsl:when>
-							<xsl:when test="@amount = '5'">very few</xsl:when>
-							<xsl:when test="@amount = '6'">one</xsl:when>
-							<xsl:when test="@amount = '-1'">unlimited</xsl:when>
+							<xsl:when test="@amount = '0'">uniquement</xsl:when>
+							<xsl:when test="@amount = '1'">énormément</xsl:when>
+							<xsl:when test="@amount = '2'">beaucoup</xsl:when>
+							<xsl:when test="@amount = '3'">quelques</xsl:when>
+							<xsl:when test="@amount = '4'">peu</xsl:when>
+							<xsl:when test="@amount = '5'">très peu</xsl:when>
+							<xsl:when test="@amount = '6'">unique</xsl:when>
+							<xsl:when test="@amount = '-1'">infiniment</xsl:when>
 							<xsl:otherwise>???</xsl:otherwise>
 						</xsl:choose>
 					</span>

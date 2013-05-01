@@ -92,25 +92,25 @@ h2 {
 	background: url("graphics.png") -60px -2215px;
 }
 
-.GalacticDiplomaticOffice {
+.OfficeDiplomatiqueGalactique {
 	background: url("http://media.pandora.fallengalaxy.com/images/nebulas/dark/121.jpg");
 }
-.GalacticDiplomaticOffice .faction {
+.OfficeDiplomatiqueGalactique .faction {
 	color: #06D;
 	text-shadow: 0 0 5px #444;
 }
-.GalacticDiplomaticOffice .factionimage {
+.OfficeDiplomatiqueGalactique .factionimage {
 	background: url("graphics.png") -30px -2215px;
 }
 
-.AutonomousNetwork {
+.RéseauAutonome {
 	background: url("http://media.pandora.fallengalaxy.com/images/nebulas/dark/101.jpg");
 }
-.AutonomousNetwork .faction {
+.RéseauAutonome .faction {
 	color: #CA0;
 	text-shadow: 0 0 5px #444;
 }
-.AutonomousNetwork .factionimage {
+.RéseauAutonome .factionimage {
 	background: url("graphics.png") -90px -2215px;
 }
 
@@ -126,7 +126,7 @@ h2 {
 	margin-right: 12px;
 }
 
-.Brotherhood *, .GalacticDiplomaticOffice *, .AutonomousNetwork * {
+.Brotherhood *, .OfficeDiplomatiqueGalactique *, .RéseauAutonome * {
 	background-image: none;
 }
 
@@ -330,7 +330,7 @@ h2 {
 	background-position: -250px -50px;
 }
 
-.Guardians {
+.Gardiens {
 	background-position: -300px -50px;
 }
 
@@ -338,11 +338,11 @@ h2 {
 	background-position: -350px -50px;
 }
 
-.Tigers, .Tigres {
+.Tigres, .Tigres {
 	background-position: -400px -50px;
 }
 
-.Shadows {
+.Ombres {
 	background-position: -450px -50px;
 }
 
@@ -350,7 +350,7 @@ h2 {
 	background-position: -550px -50px;
 }
 
-.Protectors {
+.Protecteurs {
 	background-position: -800px -50px;
 }
 
@@ -390,7 +390,7 @@ h2 {
 	background-position: -2150px -50px;
 }
 
-.Styx {
+.Styxes {
 	background-position: -2200px -50px;
 }
 
@@ -402,7 +402,7 @@ h2 {
 	background-position: -2300px -50px;
 }
 
-.Hades {
+.Hadès {
 	background-position: -2350px -50px;
 }
 
