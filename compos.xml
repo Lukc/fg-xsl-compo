@@ -30,10 +30,10 @@
 			</ships>
 		</compo>
 		<compo min-pow="40k" type="generic">
-			<name>Isha-one</name>
+			<name>Isha - 1</name>
 			<ships title="Hadès">
 				<front>
-					<ship amount="5">Trinitys</ship>
+					<ship amount="4">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -44,7 +44,7 @@
 			</ships>
 			<ships type="variation" title="Spectres">
 				<front>
-					<ship amount="5">Trinitys</ship>
+					<ship amount="4">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -55,7 +55,7 @@
 			</ships>
 			<ships type="variation" title="Furys">
 				<front>
-					<ship amount="5">Trinitys</ship>
+					<ship amount="4">Trinitys</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -67,7 +67,7 @@
 			<note>Contribution d’Ishamael pour 40k et 70k. :)</note>
 		</compo>
 		<compo min-pow="5k" type="aggressive">
-			<name>Isha-two</name>
+			<name>Isha - 2</name>
 			<ships>
 				<front>
 					<ship amount="3">Blades</ship>
@@ -80,6 +80,80 @@
 				</back>
 			</ships>
 			<strength>Sentinelles</strength>
+		</compo>
+		<compo type="generic">
+			<name>Isha - 3</name>
+			<ships title="Hadès">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="6">Éclipses</ship>
+					<ship amount="2">Hadès</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Fury">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="6">Éclipses</ship>
+					<ship amount="2">Furys</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Spectre">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="6">Éclipses</ship>
+					<ship amount="2">Spectres</ship>
+				</back>
+			</ships>
+			<note>Utilisez les Éclipses pour réduire les dégats grâce à la capacité « Occultation »</note>
+			<note>Contribution d’Ishamael.</note>
+		</compo>
+		<compo faction="Confrérie">
+			<name>Isha - 4</name> 
+			<ships title="Hadès">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Ombres</ship>
+					<ship amount="2">Hadès</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Fury">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Ombres</ship>
+					<ship amount="2">Furys</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Spectre">
+				<front>
+					<ship amount="4">Trinitys</ship>
+					<ship amount="2">Blades</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Ombres</ship>
+					<ship amount="2">Spectres</ship>
+				</back>
+			</ships>
 		</compo>
 		<compo min-tech="8" min-pow="1k" type="aggressive">
 			<name>When I Don't Know</name>
