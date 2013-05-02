@@ -9,7 +9,7 @@
 			<ships title="Hellcats">
 				<front>
 					<ship amount="2">Corsairs</ship>
-					<ship amount="2">Zeros</ship>
+					<ship amount="2">Zéros</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
@@ -20,7 +20,7 @@
 			<ships type="variation" title="Banshees">
 				<front>
 					<ship amount="2">Corsairs</ship>
-					<ship amount="2">Zeros</ship>
+					<ship amount="2">Zéros</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
@@ -158,9 +158,9 @@
 		</compo>
 		<compo type="cargo" min-pow="5k">
 			<name>Mineuse low-tech</name>
-			<ships title="Zeros">
+			<ships title="Zéros">
 				<front>
-					<ship amount="2">Zeros</ship>
+					<ship amount="2">Zéros</ship>
 					<ship amount="4">Banshees</ship>
 					<ship amount="3">Templars</ship>
 				</front>
@@ -331,7 +331,7 @@
 				<front>
 					<ship amount="4">Sentinelles</ship>
 					<ship amount="2">Corsairs</ship>
-					<ship amount="2">Zeros</ship>
+					<ship amount="2">Zéros</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
