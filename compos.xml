@@ -3,9 +3,9 @@
 <!DOCTYPE fleets PUBLIC "-//FODGC//DTD FleetCompos XML//EN" "./compos.dtd">
 <fleets>
 	<category>
-		<name>Generic</name>
+		<name>Flottes génériques</name>
 		<compo min-tech="4" min-pow="1k">
-			<name>CorséZéros</name>
+			<name>CorséZéro</name>
 			<ships title="Hellcats">
 				<front>
 					<ship amount="2">Corsairs</ship>
@@ -111,7 +111,7 @@
 		</compo>
 	</category>
 	<category>
-		<name>Defensive fleets</name>
+		<name>Flottes défensives</name>
 		<compo min-tech="8" min-pow="20k" type="defensive">
 			<name>Shield</name>
 			<ships>
@@ -194,7 +194,7 @@
 		</compo>
 	</category>
 	<category>
-		<name>Brutal fleets</name>
+		<name>Flottes brutales</name>
 		<compo min-pow="10k" type="aggressive">
 			<name>Full Spectre</name>
 			<ships>
@@ -235,7 +235,7 @@
 			<note>Mettre plus de blades et très peu de gardiens en 20k+.</note>
 		</compo>
 		<compo min-tech="4" min-pow="1k" type="aggressive" faction="Hybrid">
-			<name>Full Spectre (light)</name>
+			<name>Full Spectre (léger)</name>
 			<ships title="Ombres (Confrérie)">
 				<front>
 					<ship amount="1">Spectres</ship>
@@ -408,7 +408,7 @@
 					<ship amount="2">Hadès</ship>
 				</back>
 			</ships>
-			<strength>Cruisers</strength>
+			<strength>Croisers</strength>
 			<note>Mettez autours de 3500 de puissance sur le front contre des croiseurs-only.</note>
 			<note>Suicidaire au dessus de 10k.</note>
 		</compo>
@@ -423,7 +423,7 @@
 				</front>
 			</ships>
 			<strength>Survivor</strength>
-			<weakness>Anything else</weakness>
+			<weakness>Tout le reste</weakness>
 		</compo>
 		<compo type="aggressive">
 			<name>Anti-raiders</name>
@@ -439,8 +439,8 @@
 				</back>
 			</ships>
 			<strength>Raiders</strength>
-			<weakness>Anything else</weakness>
-			<note>Contribution from Soban.</note>
+			<weakness>Tout le reste</weakness>
+			<note>Contribution de Soban.</note>
 		</compo>
 	</category>
 	<category>
@@ -521,7 +521,7 @@
 		</compo>
 	</category>
 	<category>
-		<name>Weak compositions</name>
+		<name>Compositions faibles</name>
 		<compo type="aggressive" faction="Confrérie">
 			<name>Low level</name>
 			<ships>
@@ -534,7 +534,7 @@
 					<ship amount="5">Ombres</ship>
 				</back>
 			</ships>
-			<strength>Low level AI</strength>
+			<strength>IA bas niveau</strength>
 		</compo>
 		<compo>
 			<name>Error 404.1</name>
@@ -582,7 +582,7 @@
 	<category>
 		<name>Pseudo-compositions</name>
 		<compo min-pow="10k">
-			<name>Cruisers</name>
+			<name>Croiseurs</name>
 			<ships title="Titans">
 				<front>
 					<ship amount="6">Titans</ship>
@@ -595,7 +595,7 @@
 			</ships>
 			<weakness>Full Hadès</weakness>
 			<weakness>Full Spectre</weakness>
-			<weakness>Full Spectre (light)</weakness>
+			<weakness>Full Spectre (léger)</weakness>
 			<note>Les Full Spectres ne sont utilisables contre un croiseur qu’en ayant le premier tir.</note>
 		</compo>
 		<compo type="architect" min-pow="1k">
@@ -605,8 +605,8 @@
 					<ship amount="0">Raiders</ship>
 				</front>
 			</ships>
-			<strength>None</strength>
-			<weakness>Everything</weakness>
+			<strength>Rien</strength>
+			<weakness>Tout</weakness>
 		</compo>
 		<compo min-tech="5" min-pow="500" type="cargo">
 			<name>Survivor</name>
