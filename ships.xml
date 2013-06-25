@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet href="ships.xsl" type="text/xsl" title="Default style"?>
+<!DOCTYPE ships PUBLIC "-//FODGC//DTD ShipsDefine XML//EN" "./ships.dtd">
 <ships>
 	<class>
 		<name>Fighters</name>
