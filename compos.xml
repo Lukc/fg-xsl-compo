@@ -28,6 +28,88 @@
 					<ship amount="5">Sentinelles</ship>
 				</back>
 			</ships>
+			<ships type="variation" title="Ombres">
+				<front>
+					<ship amount="2">Corsairs</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Ombres</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Tigres">
+				<front>
+					<ship amount="2">Corsairs</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Tigres</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Mineuse">
+				<front>
+					<ship amount="2">Corsairs</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="-1">Orions</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+		</compo>
+		<compo min-tech="4" min-pow="1k">
+			<name>ZéroBlades</name>
+			<ships title="Corsairs">
+				<front>
+					<ship amount="2">Blades</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Corsairs</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Fortresses">
+				<front>
+					<ship amount="2">Blades</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Fortresses</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Ombres">
+				<front>
+					<ship amount="2">Blades</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Ombres</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<ships type="variation" title="Tigres">
+				<front>
+					<ship amount="2">Blades</ship>
+					<ship amount="2">Zéros</ship>
+					<ship amount="5">Gardiens</ship>
+				</front>
+				<back>
+					<ship amount="5">Tigres</ship>
+					<ship amount="5">Sentinelles</ship>
+				</back>
+			</ships>
+			<weakness>Fortresses</weakness>
+			<weakness>Anti-chasseurs</weakness>
 		</compo>
 		<compo min-pow="40k" type="generic">
 			<name>Isha - 1</name>
@@ -544,6 +626,20 @@
 				<back>
 					<ship amount="5">Sentinelles</ship>
 					<ship amount="5">Ombres</ship>
+				</back>
+			</ships>
+		</compo>
+		<compo faction="RéseauAutonome">
+			<name>Shep-one</name>
+			<ships>
+				<front>
+					<ship amount="5">Phoenixes</ship>
+					<ship amount="3">Trinitys</ship>
+					<ship amount="2">Templars</ship>
+				</front>
+				<back>
+					<ship amount="5">Hellcats</ship>
+					<ship amount="2">Recons</ship>
 				</back>
 			</ships>
 		</compo>

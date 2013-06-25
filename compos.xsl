@@ -60,8 +60,8 @@
 				<xsl:if test="@faction">
 					<p class="faction">
 						<xsl:choose>
-							<xsl:when test="@faction = 'GalacticDiplomaticOffice'">Galactic Diplomatic Office</xsl:when>
-							<xsl:when test="@faction = 'AutonomousNetwork'">Autonomous Network</xsl:when>
+							<xsl:when test="@faction = 'OfficeDiplomatiqueGalactique'">Office Diplomatique Galactique</xsl:when>
+							<xsl:when test="@faction = 'RéseauAutonome'">Réseau Autonome</xsl:when>
 							<xsl:otherwise><xsl:value-of select="@faction" /></xsl:otherwise>
 						</xsl:choose>
 					</p>

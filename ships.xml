@@ -5,15 +5,13 @@
 		<name>Fighters</name>
 		<ship>
 			<name>Recons</name>
-
 			<strong>Sentinelles</strong>
-
 			<weak>Ombres</weak>
 			<weak>Gardiens</weak>
 			<weak>Tigres</weak>
-
+			<weak>Protecteurs</weak>
+			<weak>Raptors</weak>
 			<bestwith>Hellcats</bestwith>
-
 			<role>offensive</role>
 		</ship>
 		<ship faction="Corporations">
@@ -23,11 +21,13 @@
 			<weak>Gardiens</weak>
 			<weak>Tigres</weak>
 			<weak>Raptors</weak>
+			<bestwith>Hellcats</bestwith>
 		</ship>
 		<ship>
 			<name>Corsairs</name>
 			<strong>Banshees</strong>
 			<weak>Protecteurs</weak>
+			<weak>Gardiens</weak>
 		</ship>
 		<ship>
 			<name>Raiders</name>
@@ -44,15 +44,20 @@
 			<strong>Recons</strong>
 			<strong>Recon Falcons</strong>
 			<strong>Hellcats</strong>
-			<strong>Sentinelles</strong>
+			<strong>Corsairs</strong>
 			<strong>Templars</strong>
 			<strong>Trinitys</strong>
+			<worstwith>Protecteurs</worstwith>
 		</ship>
 		<ship faction="Corporations">
 			<name>Protecteurs</name>
+			<strong>Recons</strong>
+			<strong>Recon Falcons</strong>
 			<strong>Corsairs</strong>
 			<strong>Hellcats</strong>
-			<strong>Spectres</strong>
+			<strong>Templars</strong>
+			<strong>Trinitys</strong>
+			<worstwith>Gardiens</worstwith>
 		</ship>
 		<ship>
 			<name>Zéros</name>
@@ -60,6 +65,7 @@
 		</ship>
 		<ship>
 			<name>Fortresses</name>
+			<!-- FIXME --><strong>Chasseurs, Corvettes, Frégates</strong>
 		</ship>
 		<ship faction="Office Diplomatique Galactique">
 			<name>Tigres</name>
@@ -116,6 +122,7 @@
 			<name>Spectres</name>
 			<weak>Protecteurs</weak>
 			<weak>Banshees</weak>
+			<weak>Gardiens</weak>
 			<strong>Templars</strong>
 			<strong>Oblivions</strong>
 			<strong>Predators</strong>
@@ -215,3 +222,4 @@
 		</ship>
 	</class>
 </ships>
+

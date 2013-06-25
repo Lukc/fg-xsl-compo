@@ -27,10 +27,10 @@
 					</xsl:when>
 				</xsl:choose>
 
-				<h3>
+				<h2 class="compname">
 					<div class="factionimage"/>
 					<xsl:value-of select="name"/>
-				</h3>
+				</h2>
 				<div class="ship mainship">
 					<div class="shipimage {translate(name, ' ', '')}"/>
 				</div>
@@ -73,7 +73,7 @@
 								</xsl:when>
 								<xsl:otherwise>
 									<div>
-										Aucun en particulier
+										aucun en particulier
 									</div>
 								</xsl:otherwise>
 							</xsl:choose>
@@ -88,6 +88,22 @@
 
 								<div class="ships">
 									<xsl:for-each select="bestwith">
+										<div class="ship">
+											<div class="shipimage {translate(., ' ', '')}"/>
+										</div>
+									</xsl:for-each>
+								</div>
+							</div>
+						</xsl:when>
+					</xsl:choose>
+
+					<xsl:choose>
+						<xsl:when test="worstwith">
+							<div class="worstwith">
+								<h4>Meilleur sans</h4>
+
+								<div class="ships">
+									<xsl:for-each select="worstwith">
 										<div class="ship">
 											<div class="shipimage {translate(., ' ', '')}"/>
 										</div>

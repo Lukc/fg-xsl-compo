@@ -1,8 +1,5 @@
 
 h3 {
-	font-size: 18pt;
-	font-family: Sans-Serif;
-
 	margin: 10px;
 }
 
@@ -47,9 +44,9 @@ h3 {
 .strongAndWeak {
 	display: inline-block;
 	border-spacing: 3px;
-} .strongAndWeak, .bestwith {
+} .strongAndWeak, .bestwith, .worstwith {
 	display: inline-block;
-} .strong, .weak, .bestwith {
+} .strong, .weak, .bestwith, .worstwith {
 	border: 1px solid #888;
 	border-radius: 3px;
 	background-color: rgba(127, 127, 127, 0.1);
@@ -57,17 +54,25 @@ h3 {
 } .strong, .weak {
 	width: 230px;
 	display: table-cell;
-} div.bestwith {
+} div.bestwith, div.worstwith {
 	display: block;
 	width: 471px;
 	margin-right: 5px;
 	margin-top: -2px;
 	margin-bottom: 5px;
+} .strong {
+	border-color: #484;
+} .weak {
+	border-color: #844;
+} .bestwith {
+	border-color: #468;
 }
 
 .strong h4 {
-
+	color: #0B0;
 } .weak h4 {
-	
+	color: #B00;
+} .bestwith h4 {
+	color: #08B;
 }
 
