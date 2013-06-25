@@ -115,7 +115,7 @@
 			<name>Isha - 1</name>
 			<ships title="Hadès">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -126,7 +126,7 @@
 			</ships>
 			<ships type="variation" title="Spectres">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -135,15 +135,15 @@
 					<ship amount="2">Spectres</ship>
 				</back>
 			</ships>
-			<ships type="variation" title="Furys">
+			<ships type="variation" title="Furies">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="5">Trinities</ship>
 					<ship amount="3">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 			<note>Contribution d’Ishamael pour 40k et 70k. :)</note>
@@ -158,7 +158,7 @@
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 			<strength>Sentinelles</strength>
@@ -278,7 +278,7 @@
 				</front>
 				<back>
 					<ship amount="5">Sentinelles</ship>
-					<ship amount="2">Valkirys</ship>
+					<ship amount="2">Valkiries</ship>
 				</back>
 			</ships>
 			<weakness>Full Spectre</weakness>
@@ -292,7 +292,7 @@
 					<ship amount="3">Banshees</ship>
 				</front>
 				<back>
-					<ship amount="2">Valkirys</ship>
+					<ship amount="2">Valkiries</ship>
 					<ship amount="4">Sentinelles</ship>
 				</back>
 			</ships>
@@ -524,7 +524,7 @@
 				</front>
 				<back>
 					<ship amount="4">Hellcats</ship>
-					<ship amount="1">Furys</ship>
+					<ship amount="1">Furies</ship>
 				</back>
 			</ships>
 			<weakness>Full Styxes</weakness>
@@ -605,7 +605,7 @@
 			<name>Soban-one</name>
 			<ships>
 				<front>
-					<ship amount="3">Libertys</ship>
+					<ship amount="3">Liberties</ship>
 					<ship amount="3">Predators</ship>
 					<ship amount="3">Spectres</ship>
 				</front>
@@ -647,7 +647,7 @@
 			<name>Anti-minatoi PalaSpectres</name>
 			<ships>
 				<front>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 					<ship amount="2">Predators</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -712,11 +712,11 @@
 				<front>
 					<ship amount="2">Spectres</ship>
 					<ship amount="5">Gardiens</ship>
-					<ship amount="2">Libertys</ship>
+					<ship amount="2">Liberties</ship>
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 		</compo>
@@ -744,7 +744,7 @@
 				</front>
 				<back>
 					<ship amount="5">Hellcats</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 		</compo>
@@ -758,9 +758,9 @@
 					<ship amount="6">Titans</ship>
 				</front>
 			</ships>
-			<ships type="variation" title="Trinitys">
+			<ships type="variation" title="Trinities">
 				<front>
-					<ship amount="6">Trinitys</ship>
+					<ship amount="6">Trinities</ship>
 				</front>
 			</ships>
 			<weakness>Full Hadès</weakness>

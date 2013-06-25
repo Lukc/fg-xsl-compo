@@ -69,9 +69,7 @@
 
 				<xsl:if test="ships">
 					<div class="fleet">
-						<xsl:for-each select="ships[not(@type)]/*">
-							<xsl:call-template name="shipList" />
-						</xsl:for-each>
+						<xsl:apply-templates select="ships[not(@type)]/*" />
 					</div>
 
 					<xsl:if test="ships[@type = 'variation']">
@@ -81,14 +79,12 @@
 								<li class="variation selected">
 									<p>
 										<xsl:choose>
-											<xsl:when test="ships[not(@type)]/@title"><xsl:value-of select="ships/@title"/></xsl:when>
+											<xsl:when test="ships[not(@type)]/@title"><xsl:value-of select="ships[not(@type)]/@title"/></xsl:when>
 											<xsl:otherwise>Défaut</xsl:otherwise>
 										</xsl:choose>
 									</p>
 									<div class="ships">
-										<xsl:for-each select="ships[not(@type)]/*">
-											<xsl:call-template name="shipList" />
-										</xsl:for-each>
+										<xsl:apply-templates select="ships[not(@type)]/*" />
 									</div>
 								</li>
 								<xsl:for-each select="ships[@type = 'variation']">
@@ -101,9 +97,7 @@
 										</p>
 										
 										<div class="ships">
-											<xsl:for-each select="*">
-												<xsl:call-template name="shipList" />
-											</xsl:for-each>
+											<xsl:apply-templates select="*" />
 										</div>
 									</li>
 								</xsl:for-each>
@@ -119,9 +113,7 @@
 							<div class="strongCounter">
 								<h4>Fort contre</h4>
 								<ul>
-									<xsl:for-each select="strength">
-										<xsl:call-template name="weakandstrong" />
-									</xsl:for-each>
+									<xsl:apply-templates select="strength" />
 								</ul>
 							</div>
 						</xsl:if>
@@ -129,9 +121,7 @@
 							<div class="weakCounter">
 								<h4>Faible contre</h4>
 								<ul>
-									<xsl:for-each select="weakness">
-										<xsl:call-template name="weakandstrong" />
-									</xsl:for-each>
+									<xsl:apply-templates select="weakness" />
 								</ul>
 							</div>
 						</xsl:if>
@@ -156,21 +146,13 @@
 
 </xsl:template>
 
-<xsl:template name="weakandstrong">
+<xsl:template match="strength | weakness">
 	<li>
 		<a class="compo-type-link"><xsl:value-of select="." /></a>
-		<!--xsl:choose>
-			<xsl:when test="@to">
-				<a href="#{@to}"><xsl:value-of select="." /></a>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="." />
-			</xsl:otherwise>
-		</xsl:choose-->
 	</li>
 </xsl:template>
 
-<xsl:template name="shipList">
+<xsl:template match="front | back">
 	<div class="{name(.)}Ships ships">
 		<xsl:for-each select="ship">
 			<!--xsl:sort select="@amount"/> Do not do it! The order is important. -->

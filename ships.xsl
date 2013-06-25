@@ -22,7 +22,7 @@
 				<xsl:choose>
 					<xsl:when test="@faction">
 						<xsl:attribute name="class">
-							compo <xsl:value-of select="translate(@faction, ' ', '')"/>
+							compo <xsl:value-of select="@faction"/>
 						</xsl:attribute>
 					</xsl:when>
 				</xsl:choose>
@@ -42,6 +42,7 @@
 						<h4>Fort contre</h4>
 
 						<!-- FIXME: Template -->
+<<<<<<< HEAD
 						<div class="ships">
 							<xsl:choose>
 								<xsl:when test="strong">
@@ -58,10 +59,16 @@
 								</xsl:otherwise>
 							</xsl:choose>
 						</div>
+=======
+						<xsl:call-template name="showShipsIfHas">
+							<xsl:with-param name="elem" select="strong" />
+						</xsl:call-template>
+>>>>>>> 93c3a308c80a01ba8ddd45dc9aad40c54abfe92c
 					</div>
 					<div class="weak">
 						<h4>Faible contre</h4>
 
+<<<<<<< HEAD
 						<div class="ships">
 							<xsl:choose>
 								<xsl:when test="weak">
@@ -78,6 +85,11 @@
 								</xsl:otherwise>
 							</xsl:choose>
 						</div>
+=======
+						<xsl:call-template name="showShipsIfHas">
+							<xsl:with-param name="elem" select="weak" />
+						</xsl:call-template>
+>>>>>>> 93c3a308c80a01ba8ddd45dc9aad40c54abfe92c
 					</div>
 					</div>
 
@@ -87,11 +99,7 @@
 								<h4>Meilleur avec</h4>
 
 								<div class="ships">
-									<xsl:for-each select="bestwith">
-										<div class="ship">
-											<div class="shipimage {translate(., ' ', '')}"/>
-										</div>
-									</xsl:for-each>
+									<xsl:apply-templates select="bestwith" />
 								</div>
 							</div>
 						</xsl:when>
@@ -118,6 +126,28 @@
 	</xsl:for-each>
 </body>
 </html>
+</xsl:template>
+
+<xsl:template name="showShipsIfHas">
+	<xsl:param name="elem" />
+	<div class="ships">
+		<xsl:choose>
+			<xsl:when test="$elem">
+				<xsl:apply-templates select="$elem" />
+			</xsl:when>
+			<xsl:otherwise>
+				<div>
+					none in particular
+				</div>
+			</xsl:otherwise>
+		</xsl:choose>
+	</div>
+</xsl:template>
+
+<xsl:template match="strong | weak | bestwith">
+	<div class="ship">
+		<div class="shipimage {translate(., ' ', '')}"/>
+	</div>
 </xsl:template>
 
 </xsl:stylesheet> 

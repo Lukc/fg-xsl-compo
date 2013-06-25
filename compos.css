@@ -6,7 +6,10 @@
 }
 
 body {
-	background: black url("http://media.pandora.fallengalaxy.com/images/nebulas/dark/21.jpg") center repeat fixed;
+	background-color: #000000;
+	background-image: url("http://media.pandora.fallengalaxy.com/images/nebulas/dark/21.jpg");
+	background-position: center;
+	background-repeat: repeat;
 	color: #BBB;
 
 	text-align: center;
@@ -23,6 +26,8 @@ h1 {
 	margin-top: 20px;
 	font-size: 30px;
 	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	border-top: 1px solid #444444;
 }
 
@@ -355,7 +360,7 @@ h2 {
 	background-position: -800px -50px;
 }
 
-.Valkirys {
+.Valkiries {
 	background-position: -1050px -50px;
 }
 
@@ -383,11 +388,11 @@ h2 {
 	background-position: -2050px -50px;
 }
 
-.Furys {
+.Furies {
 	background-position: -2100px -50px;
 }
 
-.Libertys {
+.Liberties {
 	background-position: -2150px -50px;
 }
 
@@ -435,7 +440,7 @@ h2 {
 	background-position: -4050px -50px;
 }
 
-.Trinitys {
+.Trinities {
 	background-position: -4100px -50px;
 }
 

@@ -1,0 +1,9 @@
+<!ELEMENT ships (class*)>
+<!ELEMENT class (name, ship*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ship (name, strong*, weak*, bestwith*, role?)>
+<!ATTLIST ship faction (Brotherhood|GalacticDiplomaticOffice|AutonomousNetwork|Hybrid|Corporations) #IMPLIED>
+<!ELEMENT weak (#PCDATA)>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT bestwith (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
