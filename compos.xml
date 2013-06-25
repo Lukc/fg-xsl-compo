@@ -167,7 +167,7 @@
 			<name>Isha - 3</name>
 			<ships title="Hadès">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -178,18 +178,18 @@
 			</ships>
 			<ships type="variation" title="Fury">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="6">Éclipses</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Spectre">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -205,7 +205,7 @@
 			<name>Isha - 4</name> 
 			<ships title="Hadès">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -216,18 +216,18 @@
 			</ships>
 			<ships type="variation" title="Fury">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
 				<back>
 					<ship amount="5">Ombres</ship>
-					<ship amount="2">Furys</ship>
+					<ship amount="2">Furies</ship>
 				</back>
 			</ships>
 			<ships type="variation" title="Spectre">
 				<front>
-					<ship amount="4">Trinitys</ship>
+					<ship amount="4">Trinities</ship>
 					<ship amount="2">Blades</ship>
 					<ship amount="5">Gardiens</ship>
 				</front>
@@ -634,7 +634,7 @@
 			<ships>
 				<front>
 					<ship amount="5">Phoenixes</ship>
-					<ship amount="3">Trinitys</ship>
+					<ship amount="3">Trinities</ship>
 					<ship amount="2">Templars</ship>
 				</front>
 				<back>
