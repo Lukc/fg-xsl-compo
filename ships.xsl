@@ -98,7 +98,7 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<div>
-					none in particular
+					aucun en particulier
 				</div>
 			</xsl:otherwise>
 		</xsl:choose>
