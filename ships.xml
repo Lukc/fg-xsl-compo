@@ -38,7 +38,7 @@
 			<weak>Hurricanes</weak>
 			<weak>Predators</weak>
 			<weak>Titans</weak>
-			<weak>Trinitys</weak>
+			<weak>Trinities</weak>
 		</ship>
 		<ship>
 			<name>Gardiens</name>
@@ -47,7 +47,7 @@
 			<strong>Hellcats</strong>
 			<strong>Corsairs</strong>
 			<strong>Templars</strong>
-			<strong>Trinitys</strong>
+			<strong>Trinities</strong>
 			<worstwith>Protecteurs</worstwith>
 		</ship>
 		<ship faction="Corporations">
@@ -57,7 +57,7 @@
 			<strong>Corsairs</strong>
 			<strong>Hellcats</strong>
 			<strong>Templars</strong>
-			<strong>Trinitys</strong>
+			<strong>Trinities</strong>
 			<worstwith>Gardiens</worstwith>
 		</ship>
 		<ship>
@@ -92,9 +92,9 @@
 
 			<weak>Zéros</weak>
 			<weak>Corsairs</weak>
-			<weak>Valkirys</weak>
+			<weak>Valkiries</weak>
 			<weak>Raptors</weak>
-			<weak>Furys</weak>
+			<weak>Furies</weak>
 			<weak>Styxes</weak>
 			<weak>Oblivions</weak>
 		</ship>
@@ -108,9 +108,9 @@
 			<strong>Scorpions</strong>
 
 			<weak>Corsairs</weak>
-			<weak>Valkirys</weak>
+			<weak>Valkiries</weak>
 			<weak>Raptors</weak>
-			<weak>Furys</weak>
+			<weak>Furies</weak>
 			<weak>Styxes</weak>
 			<weak>Oblivions</weak>
 		</ship>
@@ -132,7 +132,7 @@
 			<bestwith>Hellcats</bestwith>
 		</ship>
 		<ship>
-			<name>Valkirys</name>
+			<name>Valkiries</name>
 			<strong>Sentinelles</strong>
 			<strong>Banshees</strong>
 		</ship>
@@ -148,7 +148,7 @@
 			<name>Paladins</name>
 		</ship>
 		<ship>
-			<name>Furys</name>
+			<name>Furies</name>
 			<strong>Banshees</strong>
 			<strong>Sentinelles</strong>
 			<weak>Styxes</weak>
@@ -156,11 +156,11 @@
 			<bestwith>Templars</bestwith>
 		</ship>
 		<ship>
-			<name>Libertys</name>
+			<name>Liberties</name>
 		</ship>
 		<ship>
 			<name>Styxes</name>
-			<strong>Furys</strong>
+			<strong>Furies</strong>
 			<weak>Banshees</weak>
 		</ship>
 		<ship>
@@ -216,7 +216,7 @@
 			<weak>Hadès</weak>
 		</ship>
 		<ship>
-			<name>Trinitys</name>
+			<name>Trinities</name>
 			<strong>Raiders</strong>
 			<weak>Gardiens</weak>
 			<weak>Hadès</weak>

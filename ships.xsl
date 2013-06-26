@@ -42,54 +42,15 @@
 						<h4>Fort contre</h4>
 
 						<!-- FIXME: Template -->
-<<<<<<< HEAD
-						<div class="ships">
-							<xsl:choose>
-								<xsl:when test="strong">
-									<xsl:for-each select="strong">
-										<div class="ship">
-											<div class="shipimage {translate(., ' ', '')}"/>
-										</div>
-									</xsl:for-each>
-								</xsl:when>
-								<xsl:otherwise>
-									<div>
-										aucun en particulier
-									</div>
-								</xsl:otherwise>
-							</xsl:choose>
-						</div>
-=======
 						<xsl:call-template name="showShipsIfHas">
 							<xsl:with-param name="elem" select="strong" />
 						</xsl:call-template>
->>>>>>> 93c3a308c80a01ba8ddd45dc9aad40c54abfe92c
 					</div>
 					<div class="weak">
 						<h4>Faible contre</h4>
-
-<<<<<<< HEAD
-						<div class="ships">
-							<xsl:choose>
-								<xsl:when test="weak">
-									<xsl:for-each select="weak">
-										<div class="ship">
-											<div class="shipimage {translate(., ' ', '')}"/>
-										</div>
-									</xsl:for-each>
-								</xsl:when>
-								<xsl:otherwise>
-									<div>
-										aucun en particulier
-									</div>
-								</xsl:otherwise>
-							</xsl:choose>
-						</div>
-=======
 						<xsl:call-template name="showShipsIfHas">
 							<xsl:with-param name="elem" select="weak" />
 						</xsl:call-template>
->>>>>>> 93c3a308c80a01ba8ddd45dc9aad40c54abfe92c
 					</div>
 					</div>
 
